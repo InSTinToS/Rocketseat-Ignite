@@ -1,0 +1,26 @@
+.otherInfo {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  color: #bbbbbb;
+
+  & + .otherInfo {
+    margin-left: 24px;
+  }
+}
+
+.infoIcon {
+  margin-right: 8px;
+}
+
+.footer {
+  display: flex;
+}
+
+.more {
+  margin-top: 64px;
+  font-size: 18px;
+
+  color: #ff57b2;
+}

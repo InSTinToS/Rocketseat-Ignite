@@ -1,0 +1,56 @@
+.home {
+  max-width: 700px;
+}
+
+.header {
+  padding: 80px 0 64px 0;
+  min-width: 700px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+
+  & + .post {
+    margin-top: 48px;
+  }
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #dddddd;
+
+  margin: 8px 0 24px 0;
+}
+
+.otherInfo {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  color: #bbbbbb;
+
+  & + .otherInfo {
+    margin-left: 24px;
+  }
+}
+
+.infoIcon {
+  margin-right: 8px;
+}
+
+.footer {
+  display: flex;
+}
+
+.more {
+  margin-top: 64px;
+  font-size: 18px;
+
+  color: #ff57b2;
+}

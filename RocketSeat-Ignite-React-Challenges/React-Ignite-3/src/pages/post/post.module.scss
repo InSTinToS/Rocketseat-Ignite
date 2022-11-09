@@ -1,0 +1,45 @@
+.banner {
+  max-width: 100%;
+}
+
+.posts {
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 48px;
+}
+
+.post {
+  & + .post {
+    margin-top: 80px;
+  }
+}
+
+.header {
+  margin-bottom: 64px;
+  margin-top: 80px;
+}
+
+.heading {
+  margin-bottom: 64px;
+
+  font-size: 36px;
+  font-weight: bold;
+  color: #d7d7d7;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: #eeeeee;
+
+  & + .paragraph {
+    margin-top: 24px;
+  }
+}
+
+.title {
+  color: #f8f8f8;
+  font-size: 48px;
+  margin-bottom: 24px;
+}

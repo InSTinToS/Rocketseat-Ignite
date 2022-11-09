@@ -1,0 +1,42 @@
+{
+  "importStringConfiguration.tabSize": 2,
+  "generalConfiguration.sortOnBeforeSave": true,
+  "importStringConfiguration.hasSemicolon": false,
+  "importSorter.importStringConfiguration.tabType": "space",
+  "importSorter.importStringConfiguration.trailingComma": "none",
+  "importStringConfiguration.numberOfEmptyLinesAfterAllImports": 1,
+  "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
+  "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+  "sortConfiguration": {
+    "customOrderingRules": {
+      "rules": [
+        {
+          "type": "path",
+          "regex": "^$",
+          "orderLevel": 0,
+          "disableSort": true
+        },
+        {
+          "regex": "^react$|^./styles$|^react-native$",
+          "orderLevel": 1,
+          "disableSort": true
+        },
+        {
+          "regex": "^next",
+          "orderLevel": 2,
+          "disableSort": true
+        },
+        {
+          "regex": "^./|^../",
+          "orderLevel": 3,
+          "disableSort": true
+        },
+        {
+          "regex": "^src/",
+          "orderLevel": 3,
+          "disableSort": true
+        }
+      ]
+    }
+  }
+}
